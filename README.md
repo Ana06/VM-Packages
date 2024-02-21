@@ -1,5 +1,6 @@
 [![Packages](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/vm-packages/249ae6b9ca4bbedb0f4e067205734aeb/raw/packages_badge.json)](packages)
 [![Daily failures Windows 2022](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/vm-packages/9d299e7e022d93d9c63467e115bfb53c/raw/daily.json)](https://github.com/mandiant/VM-Packages/wiki/Daily-Failures)
+[![Daily failures Windows 2019](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/vm-packages/9d299e7e022d93d9c63467e115bfb53c/raw/daily.json)](https://github.com/mandiant/VM-Packages/wiki/Daily-Failures)
 [![CI](https://github.com/mandiant/VM-packages/workflows/CI/badge.svg)](https://github.com/mandiant/VM-packages/actions?query=workflow%3ACI+branch%3Amain)
 
 # Virtual Machine Packages
