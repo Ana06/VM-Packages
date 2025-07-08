@@ -1,6 +1,7 @@
 $ErrorActionPreference = 'Stop'
 Import-Module vm.common -Force -DisableNameChecking
 
+# TEST
 $toolName = 'capa'
 $category = VM-Get-Category($MyInvocation.MyCommand.Definition)
 
