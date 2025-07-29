@@ -221,6 +221,7 @@ class VersionNotIncreased(Lint):
     logger.debug("nuspecs: %s", nuspecs)
     logger.debug("others: %s", others)
 
+    print(f"CHANGED FILES: {changed_files}")
     def __get_remote_version(self, package_name):
         stream = os.popen(f"powershell.exe choco find -er {package_name} -s {self.source}")
         output = stream.read()
@@ -261,7 +262,7 @@ class VersionNotIncreased(Lint):
             print("Package not found in MyGet")
             return False
 
-        if Version(local_version) <= Version(remote_version):
+        if local_version <= remote_version:
             print(f"{path} package version ({local_version}) must be higher than the one in MyGet ({remote_version})")
             return True
 

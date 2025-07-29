@@ -34,7 +34,7 @@ jobs:
               $installSucceeded = $False
               if ($updated -and $version) {
                 # Ensure linter succeed
-                python scripts/test/lint.py "packages\$package" *>$null
+                python scripts/test/lint.py "packages\$package"
 
                 # Only if linting succeeds, test package
                 if ($?) {
