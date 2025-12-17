@@ -5,6 +5,6 @@ $toolName = 'RegCool'
 $category = VM-Get-Category($MyInvocation.MyCommand.Definition)
 
 $zipUrl = 'https://kurtzimmermann.com/files/RegCoolX64.zip'
-$zipSha256 = 'a3610184ee13c65834be4e1ea68f6b24278476594c7b25c5c6678d6f47226d8f'
+$zipSha256 = '5eace9afcac9fe874aa507f6e9350b35c470bea96829951241ec0abfc76c781a'
 
 VM-Install-From-Zip $toolName $category $zipUrl -zipSha256 $zipSha256 -consoleApp $false -innerFolder $false
